@@ -45,6 +45,9 @@ sed -i 's/\"services\"/\"vpn\"/g' /usr/lib/lua/luci/controller/softethervpn5.lua
 sed -i 's/\"services\"/\"vpn\"/g' /usr/lib/lua/luci/controller/openclash.lua
 
 sed -i 's/\"services\"/\"network\"/g' /usr/lib/lua/luci/controller/mwan3helper.lua
+sed -i 's/\"services\"/\"network\"/g' /usr/lib/lua/luci/controller/pppoe-relay.lua
+sed -i 's/\"services\"/\"network\"/g' /usr/lib/lua/luci/controller/pppoe-server.lua
+
 
 sed -i 's/\"network\"/\"control\"/g' /usr/lib/lua/luci/controller/appfilter.lua
 
